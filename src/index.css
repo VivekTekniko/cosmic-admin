@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --bg-primary: #ffffff;
+  --clr-primary: linear-gradient(129.99deg, #fff 0%, #fff 47.43%);
+  /* --clr-theme: #2c3e50; */
+  /* --clr-theme: #000; */
+  --clr-theme: #e82e79;
+  /* --clr-theme: #662ee8; */
+  /* --clr-primary: #f6b884; */
+  --roboto: "Roboto", sans-serif;
+}
+
+label {
+  padding-bottom: 1%;
+}
+
+.css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input {
+  padding: 0px !important;
+  border: none !important;
+}
+
+.css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input:hover {
+  border: 2px solid --clr-theme !important;
+}

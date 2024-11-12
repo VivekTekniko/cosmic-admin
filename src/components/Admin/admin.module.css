@@ -1,0 +1,149 @@
+.title {
+  background-color: var(--clr-theme);
+  max-width: fit-content;
+  text-align: center;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+}
+.active_admin {
+  background-color: #36d200;
+  color: #fff;
+  border-radius: 1rem;
+  font-size: 0.7rem;
+  padding: 0.2rem 0.5rem;
+  display: inline-block;
+}
+.inactive_admin {
+  background-color: #f83838;
+  color: #fff;
+  border-radius: 1rem;
+  font-size: 0.7rem;
+  padding: 0.2rem 0.5rem;
+  display: inline-block;
+}
+.user-list-title {
+  margin-bottom: 0.6rem;
+}
+
+/* popup */
+
+.dialog_title {
+  font-weight: bold;
+  margin: auto;
+}
+
+.employee_gl_popup {
+  background-color: #fff;
+  font-size: 1rem;
+  padding: 0.7rem 2rem;
+  border-radius: 0.3rem;
+  margin: auto;
+  text-align: center;
+  width: 50%;
+  margin-top: 1.5rem;
+  padding: 0.8rem 1rem;
+  cursor: pointer;
+  color: #000;
+  border: 2px solid #000;
+}
+.employee_gl_popup_del {
+  background-color: red;
+  color: #fff;
+  font-size: 1rem;
+  padding: 0.7rem 2rem;
+  border-radius: 0.3rem;
+  margin: auto;
+  text-align: center;
+  width: 50%;
+  margin-top: 1.5rem;
+  padding: 0.8rem 1rem;
+  cursor: pointer;
+}
+.employee_gl_popup_del:hover {
+  background-color: #a00808;
+}
+
+/* add admin css  */
+.admin_container {
+  padding: 2rem 4rem;
+}
+
+.admin_feilds {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.admin_feilds .left,
+.admin_feilds .right {
+  flex: 1;
+  padding-top: 0;
+}
+
+.admin_form input {
+  margin: 0.6rem 0;
+  padding: 0.8rem 0.6rem;
+  width: 100%;
+  font-size: 0.9rem;
+  border-radius: 0.5rem;
+  border: none;
+  outline: none;
+  background: #f2f7fb;
+  box-sizing: border-box;
+}
+.form-login-btn {
+  padding-top: 3rem;
+  width: 25%;
+  margin: auto;
+}
+.pagination {
+  display: grid;
+  place-items: center;
+  margin-block: 1rem;
+}
+.main-heading-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.search-box {
+  align-items: center;
+  background-color: #d5d5d522;
+  border-radius: 4px;
+  color: #777;
+  display: flex;
+  flex-grow: 1;
+  padding: 10px 5px;
+  box-shadow: rgb(149 157 165 / 20%) 0px 8px 24px;
+}
+.search-box input {
+  background-color: initial;
+  border: none;
+  color: #777;
+  flex-grow: 1;
+  font-size: 18px;
+  outline: none;
+}
+.user-list-heading {
+  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-block: 0rem 1rem;
+  align-items: baseline;
+}
+.filter-btn {
+  background-color: var(--clr-theme);
+  color: white;
+  max-width: fit-content;
+  padding: 0.3rem 1rem;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.user-list-search {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}

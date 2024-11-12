@@ -1,0 +1,16 @@
+.custombutton {
+  padding: 0.5rem 1rem;
+  border: none;
+  transition: all 0.1s ease;
+  cursor: pointer;
+  background: var(--clr-theme);
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 21px;
+  width: 100%;
+  font-size: 20px;
+  color: #fff;
+}
+/* .custombutton:hover {
+  background: var(--aqua-primary);
+  color: #ffffff;
+} */

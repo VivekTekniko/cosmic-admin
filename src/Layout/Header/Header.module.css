@@ -1,0 +1,21 @@
+.header-container {
+  background: var(--clr-theme);
+  width: 100%;
+}
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 1rem;
+  color: #fff;
+}
+.header-content-right {
+  display: flex;
+  align-items: center;
+  grid-gap: 2rem;
+}
+.header-top-section {
+  /* margin-bottom: 1.5rem; */
+}
+.header-item-clr {
+  color: var(--clr-theme);
+}

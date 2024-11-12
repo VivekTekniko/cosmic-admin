@@ -1,0 +1,60 @@
+.dashboard-main-card {
+  display: grid;
+  padding: 2rem 2rem;
+  color: black;
+}
+
+.card-title h6 {
+  color: black;
+  font-weight: normal;
+}
+
+.dashboard-header-container {
+  display: grid;
+  grid-template-columns: repeat(1fr auto);
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 1.5rem;
+}
+
+.dashbord-content {
+  border-radius: 1rem;
+  background-color: #fff;
+  color: black;
+}
+
+.graph-container {
+  margin-top: 5rem;
+}
+
+.graph-content {
+  display: flex;
+  align-items: baseline;
+}
+.employee_gl_popup {
+  background-color: #fff;
+  font-size: 1rem;
+  padding: 0.7rem 2rem;
+  border-radius: 0.3rem;
+  margin: auto;
+  text-align: center;
+  width: 50%;
+  margin-top: 1.5rem;
+  padding: 0.8rem 1rem;
+  cursor: pointer;
+  color: #000;
+  border: 2px solid #000;
+}
+
+.employee_gl_popup_del {
+  background-color: #10653e;
+  color: #fff;
+  font-size: 1rem;
+  padding: 0.7rem 2rem;
+  border-radius: 0.3rem;
+  margin: auto;
+  text-align: center;
+  width: 50%;
+  margin-top: 1.5rem;
+  padding: 0.8rem 1rem;
+  cursor: pointer;
+}

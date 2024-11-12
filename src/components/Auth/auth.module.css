@@ -1,0 +1,125 @@
+.banner_content {
+  padding: 3rem 3rem;
+  text-align: center;
+}
+
+.login-content {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+.login-content-left {
+  background: var(--clr-theme);
+  height: 100vh;
+  position: relative;
+}
+
+.logo-img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  translate: -50% -50%;
+  width: 61%;
+  aspect-ratio: 1 / .5;
+}
+
+.login-content-right {
+  padding: 5rem;
+}
+
+.inputBox {
+  align-items: center;
+  background-color: #fff;
+  border: 1px solid var(--clr-theme);
+  border-radius: 5px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  transition: all 0.2s ease;
+}
+
+.inputBox input {
+  background-color: initial;
+  border: none;
+  color: #000;
+  flex-grow: 1;
+  font-size: 16px;
+  min-width: 25ch;
+  outline: none;
+  padding-inline: 10px;
+  transition: all 0.2s ease;
+}
+
+.form-login-btn {
+  padding-top: 3rem;
+}
+
+.login-form {
+  padding: 0.8rem 0rem;
+}
+
+.login-title h2 {
+  text-align: center;
+  padding-block: 3rem 0rem;
+  color: var(--clr-theme);
+}
+
+.forgot-password {
+  text-align: end;
+}
+
+.forgot-password span {
+  color: var(--clr-theme);
+  cursor: pointer;
+  padding-top: 1rem;
+}
+
+.form-container {
+  max-width: 80%;
+  margin: auto;
+  padding-block: 2rem;
+}
+
+.forgot-title h2 {
+  text-align: center;
+  padding-block: 3rem 0rem;
+}
+
+.forgot-title p {
+  max-width: 70%;
+  text-align: center;
+  margin: auto;
+  color: #777;
+  font-size: 15px;
+  margin-top: 1rem;
+}
+
+.employee_gl_popup {
+  background-color: #fff;
+  font-size: 1rem;
+  padding: 0.7rem 2rem;
+  border-radius: 0.3rem;
+  margin: auto;
+  text-align: center;
+  width: 50%;
+  margin-top: 1.5rem;
+  padding: 0.8rem 1rem;
+  cursor: pointer;
+  color: #000;
+  border: 2px solid #000;
+}
+
+.employee_gl_popup_del {
+  background-color: rgb(5, 114, 16);
+  color: #fff;
+  font-size: 1rem;
+  padding: 0.7rem 2rem;
+  border-radius: 0.3rem;
+  margin: auto;
+  text-align: center;
+  width: 50%;
+  margin-top: 1.5rem;
+  padding: 0.8rem 1rem;
+  cursor: pointer;
+}
